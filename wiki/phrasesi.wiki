@@ -1,4 +1,5 @@
-= Useful Phrases for CS paper Reading and Writing| [[/index|home]] = 
+%title Useful Phrases for CS Papers Reading and Writing
+= Useful Phrases for CS Papers Reading and Writing| [[/index|home]] = 
 1. [[phrases/Aided by|Aided by]]
 2. [[phrases/This appetite for|This appetite for]]
 3. [[phrases/lag behind|lag behind]]

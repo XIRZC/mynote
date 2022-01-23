@@ -1,3 +1,4 @@
+%title General Meaning of High-frequency or Canical Words for CS Research
 = General Meaning of High-frequency or Canical Words for CS Research | [[/index|home]] =
 
 | [[words/vanilla|vanilla]]         | [[words/nontrival|nontrival]]   | [[words/scalable|scalable]] | [[words/address|address]]         | [[words/preceded|preceded]]   | [[words/integrate|integrate]]   | [[words/sophisticated|sophisticated]] | [[words/induce|induce]]                           | [[words/holistic|holistic]]     | [[words/win-win|win-win]]   |
