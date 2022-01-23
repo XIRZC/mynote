@@ -31,5 +31,3 @@ My favorite operating system is ArchLinux, then not perfect Hackintosh, and last
   - [[/os/Hackintosh|Hackintosh]]
   - [[/os/Windows|Windows]]
 
-
-== [[Vimwiki Docs]] ==
