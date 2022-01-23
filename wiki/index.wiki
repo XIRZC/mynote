@@ -11,7 +11,7 @@ Here are the main directions that I recently focus on:
   - [[FSL papers]] `Few-Shot Learning`
   - [[VL papers]] `Vision and Language`
   - [[SSL papers]] `Self-Supervised Learning`
-  - [[NLP papers]] `Natural Language Learning`
+  - [[NLP papers]] `Natural Language Processing`
   - [[CL papers]] `Contrast Learning` 
 
 
