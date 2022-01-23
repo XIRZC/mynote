@@ -1,0 +1,2 @@
+= Tri-OS Install and Configuration for Windows, ArchLinux and Hackintosh [[/index|home]] =
+

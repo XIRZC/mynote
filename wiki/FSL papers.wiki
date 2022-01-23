@@ -1,0 +1,22 @@
+= Few-Shot Learning papers and notes | [[/index|home]] =
+== General ==
+- [X] [[papers/Wang et al - 2020 - Generalizing from a Few Examples: A Survey on Few-Shot Learning|Wang et al - 2020 - Generalizing from a Few Examples: A Survey on Few-Shot Learning]]
+- [X] [[papers/Chen et al - 2020 - A Closer Look at Few-shot Classification|Chen et al - 2020 - A Closer Look at Few-shot Classification]]
+- [X] [[papers/Gidaris et al - 2019 - Boosting Few-Shot Visual Learning with Self-Supervision|Gidaris et al - 2019 - Boosting Few-Shot Visual Learning with Self-Supervision]]
+- [X] [[papers/Ren et al - 2018 - Meta-Learning for Semi-Supervised Few-Shot Classification|Ren et al - 2018 - Meta-Learning for Semi-Supervised Few-Shot Classification]]
+== Meta Learning ==
+- [X] [[papers/Huisman et al - 2021 - A Survey of Deep Meta-Learning|Huisman et al - 2021 - A Survey of Deep Meta-Learning]]
+- [X] [[papers/Hospedales et al - 2020 - Meta-Learning in Neural Networks A Survey|Hospedales et al - 2020 - Meta-Learning in Neural Networks A Survey]]
+- [X] [[papers/Koch et al - Siamese Neural Networks for One-shot Image Recognition|Koch et al - Siamese Neural Networks for One-shot Image Recognition]]: SiameseNet
+- [X] [[papers/Vinyals et al - 2017 - Matching Networks for One Shot Learning|Vinyals et al - 2017 - Matching Networks for One Shot Learning]]: MatchingNet
+- [o] [[papers/Snell et al - 2017 - Prototypical Networks for Few-shot Learning|Snell et al - 2017 - Prototypical Networks for Few-shot Learning]]: ProtoNet
+- [ ] [[papers/Sung et al - 2018 - Learning to Compare Relation Network for Few-Shot Learning|Sung et al - 2018 - Learning to Compare Relation Network for Few-Shot Learning]]: RelationNet
+- [X] [[papers/Santoro et al - Meta-Learning with Memory-Augmented Neural Network|Santoro et al - Meta-Learning with Memory-Augmented Neural Network]]: MANN
+- [O] [[papers/Ravi and Larochelle - 2017 - OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING|Ravi and Larochelle - 2017 - OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING]]: LSTM Meta-Learner
+- [X] [[papers/Finn et al - 2017 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks|Finn et al - 2017 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks]]: MAML
+- [.] [[papers/papers/Antoniou et al - 2019 - How to train your MAML|papers/Antoniou et al - 2019 - How to train your MAML]]: MAML++
+- [ ] [[papers/Li et al - 2017 - Meta-SGD Learning to Learn Quickly for Few-Shot Learning|Li et al - 2017 - Meta-SGD Learning to Learn Quickly for Few-Shot Learning]]: Meta-SGD
+- [ ] [[papers/Nichol and Schulman - Reptile a Scalable Metalearning Algorithm|Nichol and Schulman - Reptile a Scalable Metalearning Algorithm]]: Reptile
+- [ ] [[papers/Rusu et al - 2019 - Meta-Learning with Latent Embedding Optimization|Rusu et al - 2019 - Meta-Learning with Latent Embedding Optimization]]: LEO
+- [ ] [[papers/Andrychowicz et al - 2016 - Learning to learn by gradient descent by gradient descent|Andrychowicz et al - 2016 - Learning to learn by gradient descent by gradient descent]]
+- [ ] [[papers/Mishra et al - 2018 - A Simple Neural Attentive Meta-Learner|Mishra et al - 2018 - A Simple Neural Attentive Meta-Learner]]

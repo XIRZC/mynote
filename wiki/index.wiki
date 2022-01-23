@@ -1,0 +1,34 @@
+= MrXir's Notes for Fun | [[/index|home]] =
+
+*Where there is a will,  there is a way.*    --`MrXir`
+
+== Paper List and Corresponding Notes ==
+
+Here are the main directions that I recently focus on:
+
+  - [[CV papers]] `Computer Vision`
+  - [[FSL papers]] `Few-Shot Learning`
+  - [[VL papers]] `Vision and Language`
+  - [[SSL papers]] `Self-Supervised Learning`
+  - [[NLP papers]] `Natural Language Learning`
+  - [[CL papers]] `Contrast Learning` 
+
+
+== Words and phrases in CS Research Papers ==
+
+There are some high-frequency or canical words with general meanings and useful phrases and expressions in CS research papers:
+
+  - [[wordsi|words]]
+  - [[phrasesi|phrases]]
+
+
+== Tri-OS ==
+
+My favorite operating system is ArchLinux, then not perfect Hackintosh, and last for Windows with. I have now three OSs in my PC, and here are my installation and configuration records:
+
+  - [[/os/ArchLinux|Archlinux]]
+  - [[/os/Hackintosh|Hackintosh]]
+  - [[/os/Windows|Windows]]
+
+
+== [[Vimwiki Docs]] ==

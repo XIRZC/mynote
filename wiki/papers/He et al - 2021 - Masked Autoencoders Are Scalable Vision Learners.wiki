@@ -1,0 +1,16 @@
+= Masked Autoencoders Are Scalable Vision Learners | [[/index|home]] = 
+- Storage
+  * [[http://cdn.emm.ink/papers/CV/transformer/He%20et%20al.%20-%202021%20-%20Masked%20Autoencoders%20Are%20Scalable%20Vision%20Learners.pdf|cloud file]]
+  * [[file:/home/mrxir/Zotero/storage/PTXR53ZB/He et al. - 2021 - Masked Autoencoders Are Scalable Vision Learners.pdf|local file]]
+- Pictures
+{{http:cdn.emm.ink/pics/MAE.png|MAE Structure|style="width:350px;height:350px"}}
+{{http://cdn.emm.ink/pics/MAE-qualitative.png|MAE qualitative results}}
+{{http://cdn.emm.ink/pics/MAE-highermask.png|MAE qualitative results pre-train mask ratio lower than inference|style="width:350px;height:350px"}}
+- Key Ideas
+  * mask random patches of the input image and reconstruct the missing pixels
+  * an asymmetric encoder-decoder architecture, with an encoder that oper- ates only on the visible subset of patches (without mask to- kens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens
+- Implementation Details(Simple and no sparse operations needed)
+  1. generate a token for every input patch (by linear projection with an added po- sitional embedding)
+  2. randomly shuffle the list of tokens and remove the last portion of the list, based on the masking ratio
+  3. append a list of mask tokens to the list of encoded patches, and unshuffle this full list (inverting the random shuffle operation) to align all tokens with their targets
+  4. decoder is applied to this full list (with positional embeddings added)

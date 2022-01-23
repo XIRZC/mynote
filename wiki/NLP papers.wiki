@@ -1,0 +1,10 @@
+= Natural Language Precessing papers and notes | [[/index|home]] =
+- [ ] [[papers/Miller - 1995 - WordNet a lexical database for English|Miller - 1995 - WordNet a lexical database for English]]: WordNet
+- [ ] [[papers/Mikolov et l. - 2013 - Distributed Representations of Words and Phrases and their Compositionality|Mikolov et l. - 2013 - Distributed Representations of Words and Phrases and their Compositionality]]
+- [ ] [[papers/Rong - 2016 - word2vec Parameter Learning Explained|Rong - 2016 - word2vec Parameter Learning Explained]]: word2vec
+- [X] [[papers/Vaswani et al - 2017 - Attention Is All You Need|Vaswani et al - 2017 - Attention Is All You Need]]: Attention/Transformer
+- [ ] [[papers/Peters et al - 2018 - Deep contextualized word representations|Peters et al - 2018 - Deep contextualized word representations]]: ElMo
+- [ ] [[papers/Radford et al -2018 - Improving Language Understanding by Generative Pre-Training|Radford et al -2018 - Improving Language Understanding by Generative Pre-Training]]: GPTv1
+- [o] [[papers/Devlin et al - 2019 - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding|Devlin et al - 2019 - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding]]: BERT
+
+

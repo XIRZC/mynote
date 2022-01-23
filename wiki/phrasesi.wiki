@@ -1,0 +1,10 @@
+= Useful Phrases for CS paper Reading and Writing| [[/index|home]] = 
+1. [[phrases/Aided by|Aided by]]
+2. [[phrases/This appetite for|This appetite for]]
+3. [[phrases/lag behind|lag behind]]
+4. [[phrases/a qualitative sense of|a qualitative sense of]]
+5. [[phrases/intentionally opt not to do sth|intentionally opt not to do sth]]
+6. [[phrases/be aligned with|be aligned with]]
+7. [[phrases/scaling up models|scaling up models]]
+8. [[phrases/embarking on a similar trajectory|embarking on a similar trajectory]]
+9. [[phrases/a large abundance of evidence indicates that|a large abundance of evidence indicates that]]
