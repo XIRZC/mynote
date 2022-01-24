@@ -9,3 +9,6 @@
 7. [[phrases/scaling up models|scaling up models]]
 8. [[phrases/embarking on a similar trajectory|embarking on a similar trajectory]]
 9. [[phrases/a large abundance of evidence indicates that|a large abundance of evidence indicates that]]
+10. [[phrases/ablation study|ablation study experiment]]
+11. [[phrases/an order of magnitude (bigger than)|an order of magnitude (bigger than)]]
+12. [[phrases/train from scratch|train from scratch]]
