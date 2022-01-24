@@ -1,9 +1,9 @@
 %title General Meaning of High-frequency or Canical Words for CS Research
 = General Meaning of High-frequency or Canical Words for CS Research | [[/index|home]] =
 
-| [[words/vanilla|vanilla]]         | [[words/nontrival|nontrival]]   | [[words/scalable|scalable]] | [[words/address|address]]         | [[words/preceded|preceded]]   | [[words/integrate|integrate]]   | [[words/sophisticated|sophisticated]] | [[words/induce|induce]]                           | [[words/holistic|holistic]]     | [[words/win-win|win-win]]   |
-| [[words/counterpart|counterpart]] | [[words/trajectory|trajectory]] | [[words/corrupt|corrupt]]   | [[words/observation|observation]] | [[words/eliminate|eliminate]] | [[words/redundancy|redundancy]] | [[words/extrapolation|extrapolation]] | [[words/coarse&fine-grained|coarse&fine-grained]] | [[words/negligible|negligible]] | [[words/overhead|overhead]] |
-
+| [[words/vanilla|vanilla]]         | [[words/nontrival|nontrival]]   | [[words/scalable|scalable]]     | [[words/address|address]]         | [[words/preceded|preceded]]   | [[words/integrate|integrate]]   | [[words/sophisticated|sophisticated]] | [[words/induce|induce]]                           |
+| [[words/counterpart|counterpart]] | [[words/trajectory|trajectory]] | [[words/corrupt|corrupt]]       | [[words/observation|observation]] | [[words/eliminate|eliminate]] | [[words/redundancy|redundancy]] | [[words/extrapolation|extrapolation]] | [[words/coarse&fine-grained|coarse&fine-grained]] |
+| [[words/holistic|holistic]]       | [[words/win-win|win-win]]       | [[words/negligible|negligible]] | [[words/overhead|overhead]]       |                               |                                 |                                       |                                                   |
 1. [[words/vanilla|vanilla]]
 2. [[words/nontrival|nontrival]]
 3. [[words/scalable|scalable]]
