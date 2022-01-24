@@ -6,7 +6,8 @@
 | [[words/corrupt|corrupt]]                         | [[words/observation|observation]]     | [[words/eliminate|eliminate]] | [[words/redundancy|redundancy]]   | [[words/extrapolation|extrapolation]] |
 | [[words/coarse&fine-grained|coarse&fine-grained]] | [[words/holistic|holistic]]           | [[words/win-win|win-win]]     | [[words/negligible|negligible]]   | [[words/overhead|overhead]]           |
 | [[words/fine-tuned|fine-tuned]]                   | [[words/recipe|recipe]]               | [[words/intrigue|intrigue]]   | [[words/plausible|plausible]]     | [[words/hypothesize|hypothesize]]     |
-| [[words/probe|probe]]                             |                                       |                               |                                   |                                       |
+| [[words/probe|probe]]                             | [[words/decently|decently]]           | [[words/e.g.|e.g.]]           | [[words/i.e.|i.e.]]               | [[words/s.t.|s.t.]]                   |
+|                                                   |                                       |                               |                                   |                                       |
 
 
 

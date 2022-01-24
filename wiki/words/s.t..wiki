@@ -1,0 +1,7 @@
+= s.t. [[/wordsi|<-Back to List]] = 
+
+`在……条件约束下`
+
+abbreviation
+
+= subject to 使得……满足……(约束条件)
