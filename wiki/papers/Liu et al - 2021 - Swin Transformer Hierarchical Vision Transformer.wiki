@@ -1,4 +1,4 @@
-= Swin Transformer: Hierarchical Vision Transformer using Shifted Windows [[/index|home]] =
+= Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]] =
 
 Swin Transformer is published in ICCV 2021, its paper is [[https://arxiv.org/abs/2103.14030|here]], and public code is [[https://github.com/microsoft/Swin-Transformer|here]]. <++>
 
