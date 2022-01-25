@@ -8,4 +8,4 @@
 | [[words/fine-tuned|fine-tuned]]                   | [[words/recipe|recipe]]               | [[words/intrigue|intrigue]]   | [[words/plausible|plausible]]     | [[words/hypothesize|hypothesize]]     |
 | [[words/probe|probe]]                             | [[words/decently|decently]]           | [[words/e.g.|e.g.]]           | [[words/i.e.|i.e.]]               | [[words/s.t.|s.t.]]                   |
 | [[words/hierarchical|hierarchical]]               | [[words/surpass|surpass]]             | [[words/capably|capably]]     | [[words/compatible|compatible]]   | [[words/prevalent|prevalent]]         |
-| [[words/intractable|intractable]]                 | [[words/leverage|leverage]]           | [[words/merit|merit]]         | [[words/consecutive|consecutive]] |                                       |
+| [[words/intractable|intractable]]                 | [[words/leverage|leverage]]           | [[words/merit|merit]]         | [[words/consecutive|consecutive]] | [[words/facilitate|facilitate]]       |
