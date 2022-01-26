@@ -28,9 +28,9 @@
 - [ ] [[papers/He et al - 2018 - Mask R-CNN|He et al - 2018 - Mask R-CNN]]: Mask R-CNN
 - [o] [[papers/Bochkovskiy et al - 2020 - YOLOv4 Optimal Speed and Accuracy of Object Detection|Bochkovskiy et al - 2020 - YOLOv4 Optimal Speed and Accuracy of Object Detection]]: YOLOv4
 == Vision Transformer ==
-- [X] [[papers/Dosovitskiy et al - 2021 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale|Dosovitskiy et al - 2021 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale]]: ViT
+- [O] [[papers/Dosovitskiy et al - 2021 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale|Dosovitskiy et al - 2021 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale]]: ViT
 - [ ] [[papers/Tolstikhin et al - 2021 - MLP-Mixer An all-MLP Architecture for Vision|Tolstikhin et al - 2021 - MLP-Mixer An all-MLP Architecture for Vision]]: MLP-Mixer
-- [o] [[papers/Liu et al - 2021 - Swin Transformer Hierarchical Vision Transformer|Liu et al - 2021 - Swin Transformer Hierarchical Vision Transformer]]: Swin Transformer
+- [X] [[papers/Liu et al - 2021 - Swin Transformer Hierarchical Vision Transformer|Liu et al - 2021 - Swin Transformer Hierarchical Vision Transformer]]: Swin Transformer
 - [ ] [[papers/Carion et al - 2020 - End-to-End Object Detection with Transformers|Carion et al - 2020 - End-to-End Object Detection with Transformers]]: DETR
 - [X] [[papers/He et al - 2021 - Masked Autoencoders Are Scalable Vision Learners|He et al - 2021 - Masked Autoencoders Are Scalable Vision Learners]]: MAE
 - [ ] [[papers/Radford et al - 2021 - Learning Transferable Visual Models From Natural Language supervision|Radford et al - 2021 - Learning Transferable Visual Models From Natural Language supervision]]: CLIP

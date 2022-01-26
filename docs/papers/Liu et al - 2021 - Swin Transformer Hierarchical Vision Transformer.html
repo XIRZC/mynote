@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link rel="Stylesheet" type="text/css" href="../style.css">
 <title>Liu et al - 2021 - Swin Transformer Hierarchical Vision Transformer</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -41,67 +43,93 @@ Storage
 </ul>
 
  
-<ol>
-<li>
-Key Ideas
-
-</ol>
+<div id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas"><h4 id="Key Ideas" class="header"><a href="#Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas">Key Ideas</a></h4></div>
  
+<div id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Overall Architecture"><h5 id="Overall Architecture" class="header"><a href="#Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Overall Architecture">Overall Architecture</a></h5></div>
+<p>
+<img src="http:cdn.emm.ink/pics/Swin3.png" alt="The architecture of Swin Transformer" style="height:280px;width:680px;" />
+<img src="http:cdn.emm.ink/pics/Swin5.png" alt="Detailed architecture specifications" style="height:280px;width:680px;" />
+</p>
 <ul>
 <li>
-Overall Architecture
-  <img src="http:cdn.emm.ink/pics/Swin3.png" alt="The architecture of Swin Transformer" />
-  <img src="http:cdn.emm.ink/pics/Swin5.png" alt="Detailed architecture specifications" />
-
-<ul>
-<li>
-Stage 1: 
+Stage 1: Linear projection of flatterned non-overlapping patches as their respective token/feature, then feed these tokens added with position embedding to first two successive Swin Transformer Blocks
 
 <li>
-Stage 2:
+Stage 2&amp;3&amp;4: The first patch merging layer concatenates the features of each group of \( 2 \times 2 \) neighboring patches, then applies a linear layer on the concatated features to downsample feature channels 2 times, and last feed these processed features to stacked two consecutive Swin Transformer Blocks
 
-<li>
-Stage 3:
-
-<li>
-Stage 4:
-
-</ul>
 </ul>
  
+<div id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics"><h5 id="Main Characteristics" class="header"><a href="#Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics">Main Characteristics</a></h5></div>
+<p>
+<img src="http:cdn.emm.ink/pics/Swin10.png" alt="Swin Transformer characteristics vs ViT" style="height:200px;width:400px;margin-left:500px;" />
+</p>
 <ul>
 <li>
-Main Characteristics
-  <img src="http:cdn.emm.ink/pics/Swin1.png" alt="Swin Transformer characteristics vs ViT" />
-
-<ul>
-<li>
-<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-hierarchical feature maps"></span><strong id="hierarchical feature maps">hierarchical feature maps</strong> by <em>merging image patches in deeper layers</em>
+<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics-hierarchical feature maps"></span><strong id="hierarchical feature maps">hierarchical feature maps</strong> by <span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics-merging image patches in deeper layers"></span><strong id="merging image patches in deeper layers">merging image patches in deeper layers</strong>
 
 <li>
-<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-linear computation complexity to input image size"></span><strong id="linear computation complexity to input image size">linear computation complexity to input image size</strong> due to <em>computation of self-attention only within each local window</em>
+<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics-linear computation complexity to input image size"></span><strong id="linear computation complexity to input image size">linear computation complexity to input image size</strong> due to <span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Main Characteristics-computation of self-attention only within each local window"></span><strong id="computation of self-attention only within each local window">computation of self-attention only within each local window</strong>
 
-</ul>
 </ul>
    
+<div id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Well-designed Details"><h5 id="Well-designed Details" class="header"><a href="#Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-Key Ideas-Well-designed Details">Well-designed Details</a></h5></div>
 <ul>
 <li>
-Well-designed Details
+window multi-head self attention(W-MSA)
 
 <ul>
 <li>
-window multi-head self attention(W-MSA), and shifted window multi-head self attention(SW-MSA)
-    <img src="http:cdn.emm.ink/pics/Swin2.png" alt="Shifted windows approach" />  
-
-<li>
-cyclic-shifting toward the top-left direction
-    <img src="http:cdn.emm.ink/pics/Swin4.png" alt="Cycylic shift for efficient batch computation" />
-
-<li>
-relative position bias
-    <img src="http:cdn.emm.ink/pics/Swin6.png" alt="Relative position bias" />
+W-MSA for linear computation complexity to image size
+\begin{align}
+&amp;\Omega(MSA)=4hwC^2 + 2(hw)^2C \\
+&amp;\Omega(W\mbox{-}MSA)=4hwC^2 + 2M^2hwC \\
+\end{align}
 
 </ul>
+</ul>
+ 
+<ul>
+<li>
+shifted window multi-head self attention(SW-MSA)
+
+<ul>
+<li>
+SW-MSA for augement W-MSA by introducing connections between neighboring non-overlapping windows in the previous layer
+
+</ul>
+</ul>
+<p>
+<img src="http:cdn.emm.ink/pics/Swin9.png" alt="Shifted windows approach" style="height:200px;margin-left:450px;" />  
+</p>
+\begin{align}
+&amp;\hat{z}^l=W\mbox{-}MSA(LN(z^{l-1}))+z^{l-1} \\
+&amp;z^l=MLP(LN(\hat{z}^l))+\hat{z}^l \\
+&amp;\hat{z}^{l+1}=SW\mbox{-}MSA(LN(z^l))+z^l \\
+&amp;z^{l+1}=MLP(LN(\hat{z}^{l+1}))+\hat{z}^{l+1} \\
+\end{align}
+ 
+<ul>
+<li>
+cyclic-shifting toward the top-left direction
+
+<ul>
+<li>
+a batched window may be composed of several sub-windows that are not adjacent in the feature map, so a masking mechanism is employed to limit self-attention computation to within each sub-window
+
+</ul>
+</ul>
+<p>
+<img src="http:cdn.emm.ink/pics/Swin8.png" alt="Cycylic shift for efficient batch computation" style="height:200px;margin-left:350px;" />
+</p>
+ 
+<ul>
+<li>
+relative position bias
+\[
+Attention(Q,K,V)=SoftMax(QK^T/\sqrt{d}+B)V
+\]
+  where \( Q, K, V\in \mathbb{R}^{M^2\times d} \) are the query, key and value matrices; d is the query/key dimension, and \( M^2 \) is the number of patches in a window
+
 </ul>
 
 </body>

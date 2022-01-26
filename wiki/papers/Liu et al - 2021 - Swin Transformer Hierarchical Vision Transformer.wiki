@@ -11,25 +11,43 @@
 
 %% - Pictures
  
-# Key Ideas
+==== Key Ideas ====
  
-  - Overall Architecture
-  {{http:cdn.emm.ink/pics/Swin3.png|The architecture of Swin Transformer}}
-  {{http:cdn.emm.ink/pics/Swin5.png|Detailed architecture specifications}}
-    - Stage 1: 
-    - Stage 2:
-    - Stage 3:
-    - Stage 4:
+===== Overall Architecture =====
+{{http:cdn.emm.ink/pics/Swin3.png|The architecture of Swin Transformer|style="height:280px;width:680px;"}}
+{{http:cdn.emm.ink/pics/Swin5.png|Detailed architecture specifications|style="height:280px;width:680px;"}}
+- Stage 1: Linear projection of flatterned non-overlapping patches as their respective token/feature, then feed these tokens added with position embedding to first two successive Swin Transformer Blocks
+- Stage 2&3&4: The first patch merging layer concatenates the features of each group of $ 2 \times 2 $ neighboring patches, then applies a linear layer on the concatated features to downsample feature channels 2 times, and last feed these processed features to stacked two consecutive Swin Transformer Blocks
  
-  - Main Characteristics
-  {{http:cdn.emm.ink/pics/Swin1.png|Swin Transformer characteristics vs ViT}}
-    * *hierarchical feature maps* by _merging image patches in deeper layers_
-    * *linear computation complexity to input image size* due to _computation of self-attention only within each local window_
+===== Main Characteristics =====
+{{http:cdn.emm.ink/pics/Swin10.png|Swin Transformer characteristics vs ViT|style="height:200px;width:400px;margin-left:500px;"}}
+* *hierarchical feature maps* by *merging image patches in deeper layers*
+* *linear computation complexity to input image size* due to *computation of self-attention only within each local window*
    
-  - Well-designed Details
-    * window multi-head self attention(W-MSA), and shifted window multi-head self attention(SW-MSA)
-    {{http:cdn.emm.ink/pics/Swin2.png|Shifted windows approach}}  
-    * cyclic-shifting toward the top-left direction
-    {{http:cdn.emm.ink/pics/Swin4.png|Cycylic shift for efficient batch computation}}
-    * relative position bias
-    {{http:cdn.emm.ink/pics/Swin6.png|Relative position bias}}
+===== Well-designed Details =====
+* window multi-head self attention(W-MSA)
+  * W-MSA for linear computation complexity to image size
+    {{$%align%
+    &\Omega(MSA)=4hwC^2 + 2(hw)^2C \\
+    &\Omega(W\mbox{-}MSA)=4hwC^2 + 2M^2hwC \\
+    }}$
+ 
+* shifted window multi-head self attention(SW-MSA)
+  * SW-MSA for augement W-MSA by introducing connections between neighboring non-overlapping windows in the previous layer
+{{http:cdn.emm.ink/pics/Swin9.png|Shifted windows approach|style="height:200px;margin-left:450px;"}}  
+    {{$%align%
+    &\hat{z}^l=W\mbox{-}MSA(LN(z^{l-1}))+z^{l-1} \\
+    &z^l=MLP(LN(\hat{z}^l))+\hat{z}^l \\
+    &\hat{z}^{l+1}=SW\mbox{-}MSA(LN(z^l))+z^l \\
+    &z^{l+1}=MLP(LN(\hat{z}^{l+1}))+\hat{z}^{l+1} \\
+    }}$
+ 
+* cyclic-shifting toward the top-left direction
+  * a batched window may be composed of several sub-windows that are not adjacent in the feature map, so a masking mechanism is employed to limit self-attention computation to within each sub-window
+{{http:cdn.emm.ink/pics/Swin8.png|Cycylic shift for efficient batch computation|style="height:200px;margin-left:350px;"}}
+ 
+* relative position bias
+  {{$
+  Attention(Q,K,V)=SoftMax(QK^T/\sqrt{d}+B)V
+  }}$
+  where $ Q, K, V\in \mathbb{R}^{M^2\times d} $ are the query, key and value matrices; d is the query/key dimension, and $ M^2 $ is the number of patches in a window
