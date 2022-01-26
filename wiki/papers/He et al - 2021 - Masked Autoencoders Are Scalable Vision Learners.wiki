@@ -8,9 +8,9 @@
 {{http://cdn.emm.ink/pics/MAE3.png|MAE qualitative results pre-train mask ratio lower than inference|style="width:350px;height:350px"}}
 - Key Ideas
   * mask random patches of the input image and reconstruct the missing pixels
-  * an asymmetric encoder-decoder architecture, with an encoder that oper- ates only on the visible subset of patches (without mask to- kens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens
+  * an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens
 - Implementation Details(Simple and no sparse operations needed)
-  1. generate a token for every input patch (by linear projection with an added po- sitional embedding)
+  1. generate a token for every input patch (by linear projection with an added positional embedding)
   2. randomly shuffle the list of tokens and remove the last portion of the list, based on the masking ratio
   3. append a list of mask tokens to the list of encoded patches, and unshuffle this full list (inverting the random shuffle operation) to align all tokens with their targets
   4. decoder is applied to this full list (with positional embeddings added)

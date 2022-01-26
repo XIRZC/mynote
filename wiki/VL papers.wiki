@@ -1,5 +1,5 @@
 = Vision&Language papers and notes | [[/index|home]] =
-- [ ] [[papers/Wu et al - Ask Me Anything Free-Form Visual Question Answeri|Wu et al - Ask Me Anything Free-Form Visual Question Answeri]]
+- [ ] [[papers/Wu et al - Ask Me Anything Free-Form Visual Question Answering|Wu et al - Ask Me Anything Free-Form Visual Question Answering]]
 - [ ] [[papers/Suo et al - 2021 - Proposal-free One-stage Referring Expression via Grid-World Cross-Attention|Suo et al -  2021 - Proposal free One stage Referring Expression via Grid-World Cross-Attention]]
 - [ ] [[papers/Gao et al - 2021 - Chop Chop BERT Visual Question Answering by Chopping VisualBERT’s Heads|Gao et al - 2021 - Chop Chop BERT Visual Question Answering by Chopping VisualBERT’s Heads]]
 - [ ] [[papers/Gao et al - 2020 - Structured Multimodal Attentions for TextVQA|Gao et al - 2020 - Structured Multimodal Attentions for TextVQA]]
