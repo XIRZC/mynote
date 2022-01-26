@@ -1,10 +1,20 @@
-= intractable | BrE ɪnˈtraktəb(ə)l, AmE ˌɪnˈtræktəb(ə)l | [[/wordsi|<-Back to List]] =
+= leverage | BrE ˈliːv(ə)rɪdʒ,ˈlɛv(ə)rɪdʒ, AmE ˈlɛv(ə)rɪdʒ,ˈliv(ə)rɪdʒ | [[/wordsi|<-Back to List]] =
 
 `利用/拥有`
 
-adjective
+noun uncountable
 
-① (stubborn) 倔强的 juéjiàng de ‹person, disposition›
+① Physics (force) 杠杆作用 gànggǎn zuòyòng
 
-② (difficult to control) 棘手的 jíshǒu de ‹problem, situation›; 难治疗的 nán zhìliáo de ‹illness›
+② figurative (influence) 影响力 yǐngxiǎnglì
+
+▸ to have leverage with sb;
+
+能影响某人
+
+▸ to exert (one's) leverage on sb
+
+对某人施加影响
+
+③ Finance 资本负债比率 zīběn fùzhài bǐlǜ
 

@@ -1,13 +1,35 @@
 = Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]] =
 
-Swin Transformer is published in ICCV 2021, its paper is [[https://arxiv.org/abs/2103.14030|here]], and public code is [[https://github.com/microsoft/Swin-Transformer|here]]. <++>
-
-- storage
-  * [[http://cdn.emm.ink/papers/CV/transformer/Liu%20et%20al.%20-%202021%20-%20Swin%20Transformer%20Hierarchical%20Vision%20Transformer%20.pdf|cloud storage]]
-  * [[file:/Volumes/Mac OS X Data/Zotero/storage/9UI8KNFB/Liu et al. - 2021 - Swin Transformer Hierarchical Vision Transformer .pdf|local storage]]
-
-- pictures
+- Useful Items
+  - [[https://arxiv.org/abs/2103.14030|arXiv Paper URL]]
+  - [[https://github.com/microsoft/Swin-Transformer|Github Code Repository]]
+  - [[https://www.connectedpapers.com/main/c8b25fab5608c3e033d34b4483ec47e68ba109b7/Swin-Transformer%3A-Hierarchical-Vision-Transformer-using-Shifted-Windows/graph|Connected Papers URL]]
  
+- Storage
+  - [[http://cdn.emm.ink/papers/CV/transformer/Liu%20et%20al.%20-%202021%20-%20Swin%20Transformer%20Hierarchical%20Vision%20Transformer%20.pdf|Cloud Storage]]
+  - [[file:/Volumes/Mac OS X Data/Zotero/storage/9UI8KNFB/Liu et al. - 2021 - Swin Transformer Hierarchical Vision Transformer .pdf|Local Storage]]
+
+%% - Pictures
  
-- key ideas
-  - 
+# Key Ideas
+ 
+  - Overall Architecture
+  {{http:cdn.emm.ink/pics/Swin3.png|The architecture of Swin Transformer}}
+  {{http:cdn.emm.ink/pics/Swin5.png|Detailed architecture specifications}}
+    - Stage 1: 
+    - Stage 2:
+    - Stage 3:
+    - Stage 4:
+ 
+  - Main Characteristics
+  {{http:cdn.emm.ink/pics/Swin1.png|Swin Transformer characteristics vs ViT}}
+    * *hierarchical feature maps* by _merging image patches in deeper layers_
+    * *linear computation complexity to input image size* due to _computation of self-attention only within each local window_
+   
+  - Well-designed Details
+    * window multi-head self attention(W-MSA), and shifted window multi-head self attention(SW-MSA)
+    {{http:cdn.emm.ink/pics/Swin2.png|Shifted windows approach}}  
+    * cyclic-shifting toward the top-left direction
+    {{http:cdn.emm.ink/pics/Swin4.png|Cycylic shift for efficient batch computation}}
+    * relative position bias
+    {{http:cdn.emm.ink/pics/Swin6.png|Relative position bias}}

@@ -9,37 +9,97 @@
 
 <div id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]"><h1 id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]" class="header"><a href="#Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]">Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | <a href="../index.html">home</a></a></h1></div>
 
-<p>
-Swin Transformer is published in ICCV 2021, its paper is <a href="https://arxiv.org/abs/2103.14030">here</a>, and public code is <a href="https://github.com/microsoft/Swin-Transformer">here</a>. &lt;++&gt;
-</p>
+<ul>
+<li>
+Useful Items
 
 <ul>
 <li>
-storage
-
-<ul>
-<li>
-<a href="http://cdn.emm.ink/papers/CV/transformer/Liu%20et%20al.%20-%202021%20-%20Swin%20Transformer%20Hierarchical%20Vision%20Transformer%20.pdf">cloud storage</a>
+<a href="https://arxiv.org/abs/2103.14030">arXiv Paper URL</a>
 
 <li>
-<a href="/Volumes/Mac OS X Data/Zotero/storage/9UI8KNFB/Liu et al. - 2021 - Swin Transformer Hierarchical Vision Transformer .pdf">local storage</a>
+<a href="https://github.com/microsoft/Swin-Transformer">Github Code Repository</a>
+
+<li>
+<a href="https://www.connectedpapers.com/main/c8b25fab5608c3e033d34b4483ec47e68ba109b7/Swin-Transformer%3A-Hierarchical-Vision-Transformer-using-Shifted-Windows/graph">Connected Papers URL</a>
 
 </ul>
 </ul>
-
-<ul>
-<li>
-pictures
-
-</ul>
- 
  
 <ul>
 <li>
-key ideas
+Storage
 
 <ul>
 <li>
+<a href="http://cdn.emm.ink/papers/CV/transformer/Liu%20et%20al.%20-%202021%20-%20Swin%20Transformer%20Hierarchical%20Vision%20Transformer%20.pdf">Cloud Storage</a>
+
+<li>
+<a href="/Volumes/Mac OS X Data/Zotero/storage/9UI8KNFB/Liu et al. - 2021 - Swin Transformer Hierarchical Vision Transformer .pdf">Local Storage</a>
+
+</ul>
+</ul>
+
+ 
+<ol>
+<li>
+Key Ideas
+
+</ol>
+ 
+<ul>
+<li>
+Overall Architecture
+  <img src="http:cdn.emm.ink/pics/Swin3.png" alt="The architecture of Swin Transformer" />
+  <img src="http:cdn.emm.ink/pics/Swin5.png" alt="Detailed architecture specifications" />
+
+<ul>
+<li>
+Stage 1: 
+
+<li>
+Stage 2:
+
+<li>
+Stage 3:
+
+<li>
+Stage 4:
+
+</ul>
+</ul>
+ 
+<ul>
+<li>
+Main Characteristics
+  <img src="http:cdn.emm.ink/pics/Swin1.png" alt="Swin Transformer characteristics vs ViT" />
+
+<ul>
+<li>
+<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-hierarchical feature maps"></span><strong id="hierarchical feature maps">hierarchical feature maps</strong> by <em>merging image patches in deeper layers</em>
+
+<li>
+<span id="Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | [[/index|home]]-linear computation complexity to input image size"></span><strong id="linear computation complexity to input image size">linear computation complexity to input image size</strong> due to <em>computation of self-attention only within each local window</em>
+
+</ul>
+</ul>
+   
+<ul>
+<li>
+Well-designed Details
+
+<ul>
+<li>
+window multi-head self attention(W-MSA), and shifted window multi-head self attention(SW-MSA)
+    <img src="http:cdn.emm.ink/pics/Swin2.png" alt="Shifted windows approach" />  
+
+<li>
+cyclic-shifting toward the top-left direction
+    <img src="http:cdn.emm.ink/pics/Swin4.png" alt="Cycylic shift for efficient batch computation" />
+
+<li>
+relative position bias
+    <img src="http:cdn.emm.ink/pics/Swin6.png" alt="Relative position bias" />
 
 </ul>
 </ul>
