@@ -10,4 +10,4 @@
 | [[words/hierarchical|hierarchical]]               | [[words/surpass|surpass]]             | [[words/capably|capably]]     | [[words/compatible|compatible]]   | [[words/prevalent|prevalent]]         |
 | [[words/intractable|intractable]]                 | [[words/leverage|leverage]]           | [[words/merit|merit]]         | [[words/consecutive|consecutive]] | [[words/facilitate|facilitate]]       |
 | [[words/heterogeneous|heterogeneous]]             | [[words/naive|naive]]                 | [[words/crucial|crucial]]     | [[words/trade-off|trade off]]     | [[words/utilize|utilize]]             |
-| [[words/investigate|investigate]]                 | [[words/w.o.|w/o]]              | [[words/w.|w/]]               | [[words/w.r.t|w.r.t]]             |                                       |
+| [[words/investigate|investigate]]                 | [[words/w o |w/o]]                    | [[words/w |w/]]               | [[words/w r t |w.r.t]]            |                                       |
