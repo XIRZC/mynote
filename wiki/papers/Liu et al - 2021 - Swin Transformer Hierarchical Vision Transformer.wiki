@@ -11,20 +11,20 @@
 
 %% - Pictures
  
-==== Key Ideas ====
+== Key Ideas ==
  
-===== Overall Architecture =====
+=== Overall Architecture ===
 {{http:cdn.emm.ink/pics/Swin3.png|The architecture of Swin Transformer|style="height:280px;width:680px;"}}
 {{http:cdn.emm.ink/pics/Swin5.png|Detailed architecture specifications|style="height:280px;width:680px;"}}
 - Stage 1: Linear projection of flatterned non-overlapping patches as their respective token/feature, then feed these tokens added with position embedding to first two successive Swin Transformer Blocks
 - Stage 2&3&4: The first patch merging layer concatenates the features of each group of $ 2 \times 2 $ neighboring patches, then applies a linear layer on the concatated features to downsample feature channels 2 times, and last feed these processed features to stacked two consecutive Swin Transformer Blocks
  
-===== Main Characteristics =====
+=== Main Characteristics ===
 {{http:cdn.emm.ink/pics/Swin10.png|Swin Transformer characteristics vs ViT|style="height:200px;width:400px;margin-left:500px;"}}
 * *hierarchical feature maps* by *merging image patches in deeper layers*
 * *linear computation complexity to input image size* due to *computation of self-attention only within each local window*
    
-===== Well-designed Details =====
+=== Well-designed Details ===
 * window multi-head self attention(W-MSA)
   * W-MSA for linear computation complexity to image size
     {{$%align%

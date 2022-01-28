@@ -2,8 +2,8 @@
 
 Here are CCF A/B/C rank for specific AI confrences and journals.
 
-==== Conferences ====
-===== A =====
+== Conferences ==
+=== A ===
 
 | No. | Abbr.                                               | Full name                                                       | Press           |
 | 1   | [[http://dblp.uni-trier.de/db/conf/aaai/|AAAI]]     | AAAI Conference on Artificial Intelligence                      | AAAI            |
@@ -14,7 +14,7 @@ Here are CCF A/B/C rank for specific AI confrences and journals.
 | 6   | [[http://dblp.uni-trier.de/db/conf/icml/|ICML]]     | International Conference on Machine Learning                    | ACM             |
 | 7   | [[http://dblp.uni-trier.de/db/conf/ijcai/|IJCAI]]   | International Joint Conference on Artificial Intelligence       | Morgan Kaufmann |
 
-===== B =====
+=== B ===
 
 | No. | Abbr.                                                      | Full name                                                                        | Press           |
 | 1   | [[http://dblp.uni-trier.de/db/conf/colt/|COLT]]            | Annual Conference on Computational Learning Theory                               | Springer        |
@@ -30,7 +30,7 @@ Here are CCF A/B/C rank for specific AI confrences and journals.
 | 11  | [[http://dblp.uni-trier.de/db/conf/atal/index.html|AAMAS]] | International Joint Conference on Autonomous Agents and Multi-agent Systems      | Springer        |
 | 12  | [[http://dblp.uni-trier.de/db/conf/ppsn/|PPSN]]            | Parallel Problem Solving from Nature                                             | Springer        |
 
-===== C =====
+=== C ===
 
 | No. | Abbr.                                                 | Full name                                                                                            | Press                                     |
 | 1   | [[http://dblp.uni-trier.de/db/conf/aistats/|AISTATS]] | Artificial Intelligence and Statistics                                                               | JMLR                                      |
@@ -56,8 +56,8 @@ Here are CCF A/B/C rank for specific AI confrences and journals.
 | 21  | [[http://dblp.uni-trier.de/db/conf/naacl/|NAACL]]     | The Annual Conference of the North American Chapter of the Association ofr Computational Linguistics | NAACL                                     |
 
 
-==== Journals ====
-===== A =====
+== Journals ==
+=== A ===
 
 | No. | Abbr.                                                | Full name                                               | Press     |
 | 1   | [[http://dblp.uni-trier.de/db/journals/ai/|AI]]      | Artificial Intelligence                                 | Elsevier  |
@@ -65,7 +65,7 @@ Here are CCF A/B/C rank for specific AI confrences and journals.
 | 3   | [[http://dblp.uni-trier.de/db/journals/ijcv/|IJCV]]  | International Journal of Computer Vision                | Springer  |
 | 4   | [[http://dblp.uni-trier.de/db/journals/jmlr/|JMLR]]  | Journal of Machine Learning Research                    | MIT Press |
 
-==== B ====
+== B ==
 
 | No. | Abbr.                                                         | Full name                                                   | Press                                        |
 | 1   | [[http://dblp.uni-trier.de/db/journals/tap/|TAP]]             | ACM Transactions on Applied Perception                      | ACM                                          |
