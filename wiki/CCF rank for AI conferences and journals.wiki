@@ -1,0 +1,91 @@
+= CCF Rank for AI Conferences and Journals | [[/index|home]] =
+
+Here are CCF A/B/C rank for specific AI confrences and journals.
+
+==== Conferences ====
+===== A =====
+
+| No. | Abbr.                                               | Full name                                                       | Press           |
+| 1   | [[http://dblp.uni-trier.de/db/conf/aaai/|AAAI]]     | AAAI Conference on Artificial Intelligence                      | AAAI            |
+| 2   | [[http://dblp.uni-trier.de/db/conf/nips/|NeurlIPS]] | Annual Conference on Neural Information Processing Sysems       | MIT Press       |
+| 3   | [[http://dblp.uni-trier.de/db/conf/acl/|ACL]]       | Annual Meeting of the Association for Computational Linguistics | ACL             |
+| 4   | [[http://dblp.uni-trier.de/db/conf/cvpr/|CVPR]]     | IEEE Conference on Computer Vision and Pattern Recognition      | IEEE            |
+| 5   | [[http://dblp.uni-trier.de/db/conf/iccv/|ICCV]]     | International Conference on Computer Vision                     | IEEE            |
+| 6   | [[http://dblp.uni-trier.de/db/conf/icml/|ICML]]     | International Conference on Machine Learning                    | ACM             |
+| 7   | [[http://dblp.uni-trier.de/db/conf/ijcai/|IJCAI]]   | International Joint Conference on Artificial Intelligence       | Morgan Kaufmann |
+
+===== B =====
+
+| No. | Abbr.                                                      | Full name                                                                        | Press           |
+| 1   | [[http://dblp.uni-trier.de/db/conf/colt/|COLT]]            | Annual Conference on Computational Learning Theory                               | Springer        |
+| 2   | [[http://dblp.uni-trier.de/db/conf/emnlp/|EMNLP]]          | Conference on Empirical Methods in Natural Language Processing                   | ACL             |
+| 3   | [[http://dblp.uni-trier.de/db/conf/ecai/|ECAI]]            | European Conference on Artificial Intelligence                                   | IOS Press       |
+| 4   | [[http://dblp.uni-trier.de/db/conf/eccv/|ECCV]]            | European Conference on Computer Vision                                           | Springer        |
+| 5   | [[http://dblp.uni-trier.de/db/conf/icra/|ICRA]]            | IEEE International Conference on Robotics and Automation                         |                 |
+| 6   | [[http://dblp.uni-trier.de/db/conf/aips/|ICAPS]]           | International Conference on Automated Planning and Scheduling                    | AAAI            |
+| 7   | [[http://dblp.uni-trier.de/db/conf/iccbr/|ICCBR]]          | International Conference on Case-Based Reasoning and Development                 | Springer        |
+| 8   | [[http://dblp.uni-trier.de/db/conf/coling/|COLING]]        | International Conference on Computational Linguistics                            | ACM             |
+| 9   | [[http://dblp.uni-trier.de/db/conf/kr/|KR]]                | International Conference on Principles of Knowledge Representation and Reasoning | Morgan Kaufmann |
+| 10  | [[http://dblp.uni-trier.de/db/conf/uai/|UAI]]              | International Conference on Uncertainty in Artificial Intelligence               | AUAI            |
+| 11  | [[http://dblp.uni-trier.de/db/conf/atal/index.html|AAMAS]] | International Joint Conference on Autonomous Agents and Multi-agent Systems      | Springer        |
+| 12  | [[http://dblp.uni-trier.de/db/conf/ppsn/|PPSN]]            | Parallel Problem Solving from Nature                                             | Springer        |
+
+===== C =====
+
+| No. | Abbr.                                                 | Full name                                                                                            | Press                                     |
+| 1   | [[http://dblp.uni-trier.de/db/conf/aistats/|AISTATS]] | Artificial Intelligence and Statistics                                                               | JMLR                                      |
+| 2   | [[http://dblp.uni-trier.de/db/conf/accv/|ACCV]]       | Asian Conference on Computer Vision                                                                  | Springer                                  |
+| 3   | [[http://dblp.uni-trier.de/db/conf/acml/|ACML]]       | Asian Conference on Machine Learning                                                                 | JMLR                                      |
+| 4   | [[http://dblp.uni-trier.de/db/conf/bmvc/|BMVC]]       | British Machine Vision Conference                                                                    | British Machine Vision Association        |
+| 5   | [[https://dblp.uni-trier.de/db/conf/nlpcc/|NLPCC]]    | CCF International Conference on Natural Language Processing and Chinese Computing                    | Springer                                  |
+| 6   | [[http://dblp.uni-trier.de/db/conf/conll|CoNLL]]      | Conference on Computational Natural Language Learning                                                | Association for Computational Linguistics |
+| 7   | [[http://dblp.uni-trier.de/db/conf/gecco/|GECOO]]     | Genetic and Evolutionary Computation Conference                                                      | ACM                                       |
+| 8   | [[http://dblp.uni-trier.de/db/conf/ictai/|ICTAI]]     | IEEE International Conference on Tools with Artificial Intelligence                                  | IEEE                                      |
+| 9   | [[http://dblp.uni-trier.de/db/conf/iros/|IROS]]       | IEEE\RSJ International Conference on Intelligent Robots and Systems                                  | IEEE                                      |
+| 10  | [[http://dblp.uni-trier.de/db/conf/alt/|ALT]]         | International Conference on Algorithmic Learning Theory                                              | Springer                                  |
+| 11  | [[http://dblp.uni-trier.de/db/conf/icann/|ICANN]]     | International Conference on Artificial Neural Networks                                               | Springer                                  |
+| 12  | [[http://dblp.uni-trier.de/db/conf/fgr/|FG]]          | International Conference on Automatic Face and Gesture Recognition                                   | IEEE                                      |
+| 13  | [[http://dblp.uni-trier.de/db/conf/icdar/|ICDAR]]     | International Conference on Document Analysis and Recognition                                        | IEEE                                      |
+| 14  | [[http://dblp.uni-trier.de/db/conf/ilp/|ILP]]         | International Conference on Inductive Logic Programming                                              | Springer                                  |
+| 15  | [[http://dblp.uni-trier.de/db/conf/ksem/|KSEM]]       | International conference on Knowledge Science, Engineering and Management                            | Springer                                  |
+| 16  | [[http://dblp.uni-trier.de/db/conf/iconip/|ICONIP]]   | International Conference on Neural information Processing                                            | Springer                                  |
+| 17  | [[http://dblp.uni-trier.de/db/conf/icpr/|ICPR]]       | International Conference on Pattern Recognition                                                      | IEEE                                      |
+| 18  | [[http://dblp.uni-trier.de/db/conf/icb/|ICB]]         | International Joint Conference on Biometrics                                                         | IEEE                                      |
+| 19  | [[http://dblp.uni-trier.de/db/conf/ijcnn/|IJCNN]]     | International Joint Conference on Neural Networks                                                    | IEEE                                      |
+| 20  | [[http://dblp.uni-trier.de/db/conf/pricai/|PRICAI]]   | Pacific Rim International Conference on Artificial Intelligence                                      | Springer                                  |
+| 21  | [[http://dblp.uni-trier.de/db/conf/naacl/|NAACL]]     | The Annual Conference of the North American Chapter of the Association ofr Computational Linguistics | NAACL                                     |
+
+
+==== Journals ====
+===== A =====
+
+| No. | Abbr.                                                | Full name                                               | Press     |
+| 1   | [[http://dblp.uni-trier.de/db/journals/ai/|AI]]      | Artificial Intelligence                                 | Elsevier  |
+| 2   | [[http://dblp.uni-trier.de/db/journals/pami/|TPAMI]] | IEEE Trans on Pattern Analysis and Machine Intelligence | IEEE      |
+| 3   | [[http://dblp.uni-trier.de/db/journals/ijcv/|IJCV]]  | International Journal of Computer Vision                | Springer  |
+| 4   | [[http://dblp.uni-trier.de/db/journals/jmlr/|JMLR]]  | Journal of Machine Learning Research                    | MIT Press |
+
+==== B ====
+
+| No. | Abbr.                                                         | Full name                                                   | Press                                        |
+| 1   | [[http://dblp.uni-trier.de/db/journals/tap/|TAP]]             | ACM Transactions on Applied Perception                      | ACM                                          |
+| 2   | [[http://dblp.uni-trier.de/db/journals/tslp/|TSLP]]           | ACM Transactions on Speech and Language Processing          | ACM                                          |
+| 3   | [[http://dblp.uni-trier.de/db/journals/aamas/|AAMAS]]         | Autonomous Agents and Multi-Agent Systems                   | Spriner                                      |
+| 4   | [[http://dblp.uni-trier.de/db/journals/coling/|CoLing]]       | Computational Linguistics                                   | MIT Press                                    |
+| 5   | [[http://dblp.uni-trier.de/db/journals/cviu/|CVIU]]           | Computer Vision and Image Understanding                     | Elsevier                                     |
+| 6   | [[http://dblp.uni-trier.de/db/journals/dke/index.html|DKE]]   | Data and Knowledge Engineering                              | Elsevier                                     |
+| 7   | [[http://dblp.uni-trier.de/db/journals/ec/|EC]]               | Evolutionary Computation                                    | MIT Press                                    |
+| 8   | [[http://dblp.uni-trier.de/db/journals/taffco/|TAC]]          | IEEE Transactions on Affective Computing                    | IEEE                                         |
+| 9   | [[http://dblp.uni-trier.de/db/journals/taslp/|TASLP]]         | IEEE Transactions on Audio, Speech, and Language Processing | IEEE                                         |
+| 10  | [[http://dblp.uni-trier.de/db/journals/tcyb/|TCYB]]           | IEEE Transactions on Cybernetics                            | IEEE                                         |
+| 11  | [[http://dblp.uni-trier.de/db/journals/tec/|TEC]]             | IEEE Transactions on Evolutionary Computation               | IEEE                                         |
+| 12  | [[http://dblp.uni-trier.de/db/journals/tfs/|TFS]]             | IEEE Transactions on Fuzzy Systems                          | IEEE                                         |
+| 13  | [[http://dblp.uni-trier.de/db/journals/tnn/|TNNLS]]           | IEEE Transactions on Neural Networks and learning systems   | IEEE                                         |
+| 14  | [[http://dblp.uni-trier.de/db/journals/ijar/|IJAR]]           | International Journal of Approximate Reasoning              | Elsevier                                     |
+| 15  | [[http://dblp.uni-trier.de/db/journals/jair/index.html|JAIR]] | Journal of Artificial Intelligence Research                 | AAAI                                         |
+| 16  | [[http://dblp.uni-trier.de/db/journals/jar/|JAR]]             | Journal of Automated Reasoning                              | Springer                                     |
+| 17  | [[http://jslhr.pubs.asha.org/|JSLHR]]                         | Journal of Speech, Language, and Hearing Research           | American Speech-Language Hearing Association |
+| 18  | [[http://dblp.uni-trier.de/db/journals/ml/|ML]]               | Maching Learning                                            | Springer                                     |
+| 19  | [[http://dblp.uni-trier.de/db/journals/neco/|NeCo]]           | Neural Computation                                          | MIT Press                                    |
+| 20  | [[http://dblp.uni-trier.de/db/journals/nn/|NN]]               | Neural Networks                                             | Elsevier                                     |
+| 21  | [[http://dblp.uni-trier.de/db/conf/par/|PR]]                  | Pattern Recognition                                         | Elsevier                                     |
