@@ -23,6 +23,16 @@ There are some high-frequency or canical words with general meanings and useful 
   - [[phrasesi|phrases]]
 
 
+== Useful Cheatsheets ==
+
+- [[https://gto76.github.io/python-cheatsheet/|Python cheatsheets]]
+- [[https://lecoupa.github.io/awesome-cheatsheets/|Awesome cheatsheets]]
+- [[https://devhints.io|Rico's cheatsheets]]
+- [[https://stanford.edu/~shervine/teaching/cs-229/|Stanford-cs-221(AI)&229(ML)&230(DL) cheatsheets]]
+- [[http://bilalarslan.me/git-cheat-sheet/|Git Cheatsheets]]
+- [[https://github.com/tchapi/markdown-cheatsheet|Markdown Cheatsheets]]
+
+
 == Tri-OS ==
 
 My favorite operating system is ArchLinux, then not perfect Hackintosh, and last for Windows with. I have now three OSs in my PC, and here are my installation and configuration records:
@@ -35,6 +45,8 @@ My favorite operating system is ArchLinux, then not perfect Hackintosh, and last
 
 There are some other useful items or urls:
 
+  - [[https://github.com/trimstray/the-book-of-secret-knowledge|The-book-of-secret-knowledge]]
   - [[CCF rank for AI conferences and journals]]
   - [[https://emm.ink/wiki/|Vimwiki Wiki]]
   - [[https://spacevim.org/|SpaceVim]]
+
