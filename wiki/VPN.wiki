@@ -6,4 +6,9 @@ Now I subscribe [[https://w1.v2free.net|V2Free]] yearly 112 combo, and using vul
   - [[https://w1.v2free.net|V2Free]]
    
 - VPN building
-  - `bash <(curl -s -L https://git.io/v2ray.sh)`
+  - [[https://github.com/ToyoDAdoubi/doubi|SSR]]
+    - `wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
+  - [[https://github.com/233boy/v2ray|V2ray]]
+    - `bash <(curl -s -L https://git.io/v2ray.sh)`
+  - [[https://github.com/mack-a/v2ray-agent|Xray-core]]
+    - `wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh`
