@@ -6,9 +6,19 @@ Now I subscribe [[https://w1.v2free.net|V2Free]] yearly 112 combo, and using vul
   - [[https://w1.v2free.net|V2Free]]
    
 - VPN building
-  - [[https://github.com/ToyoDAdoubi/doubi|SSR]]
-    - `wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
-  - [[https://github.com/233boy/v2ray|V2ray]]
-    - `bash <(curl -s -L https://git.io/v2ray.sh)`
-  - [[https://github.com/mack-a/v2ray-agent|Xray-core]]
-    - `wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh`
+  - [[https://github.com/ToyoDAdoubi/doubi|SSR]]:
+    `wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
+  - [[https://github.com/233boy/v2ray|V2ray]]:
+    `bash <(curl -s -L https://git.io/v2ray.sh)`
+  - [[https://github.com/mack-a/v2ray-agent|Xray-core]]:
+     `wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh`
+  - IP and pwd of deployed servers
+    - [[https://my.vultr.com/subs/?id=4e95ebc3-0bb4-4608-9dc5-f4d9cf0c4819|Chicago]]:
+      - `ssh root@66.42.127.55`
+      - `J=v7?[aLhwVZ]XyJ`
+    - [[https://my.vultr.com/subs/?id=613666a7-6faa-4cc8-b2d1-fc6ec2b8b5d8|Paris]]: 
+      - `ssh root@107.191.46.89` 
+      - `K(u1+oLmM5kVKSA6`
+    - [[https://my.vultr.com/subs/?id=52163ab0-ccb9-4dfa-a172-1e472914226a|Madrid]]: 
+      - `ssh root@208.85.16.201` 
+      - `2}oGy{?TV(n.ee@D`
