@@ -1,4 +1,13 @@
 {{{
+===================== Share Link ======================
+vless://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?encryption=none&security=xtls&type=tcp&host=chicago.emm.ink&headerType=none&sni=chicago.emm.ink&flow=xtls-rprx-direct#chicago.emm.ink_VLESS_XTLS/TLS-direct_TCP
+vless://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?encryption=none&security=xtls&type=tcp&host=chicago.emm.ink&headerType=none&sni=chicago.emm.ink&flow=xtls-rprx-splice#chicago.emm.ink_VLESS_XTLS/TLS-splice_TCP
+vless://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?encryption=none&security=tls&type=ws&host=chicago.emm.ink&sni=chicago.emm.ink&path=%2fliznws#chicago.emm.ink_VLESS_WS
+vmess://eyJwb3J0Ijo0NDMsInBzIjoiY2hpY2Fnby5lbW0uaW5rX3ZtZXNzX3dzIiwidGxzIjoidGxzIiwiaWQiOiI0OTczNDk5ZC1jM2NkLTRjYzEtYmQ2Yi0xN2QxMWI5ZGU2YWQiLCJhaWQiOjAsInYiOjIsImhvc3QiOiJjaGljYWdvLmVtbS5pbmsiLCJ0eXBlIjoibm9uZSIsInBhdGgiOiIvbGl6bnZ3cyIsIm5ldCI6IndzIiwiYWRkIjoiY2hpY2Fnby5lbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJjaGljYWdvLmVtbS5pbmsiLCJzbmkiOiJjaGljYWdvLmVtbS5pbmsifQ==
+vless://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?encryption=none&security=tls&type=grpc&host=chicago.emm.ink&path=lizngrpc&serviceName=lizngrpc&alpn=h2&sni=chicago.emm.ink#chicago.emm.ink_VLESS_gRPC
+trojan://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?peer=chicago.emm.ink&sni=chicago.emm.ink&alpn=http1.1#chicago.emm.ink_Trojan
+trojan://4973499d-c3cd-4cc1-bd6b-17d11b9de6ad@chicago.emm.ink:443?encryption=none&peer=chicago.emm.ink&security=tls&type=grpc&sni=chicago.emm.ink&alpn=h2&path=lizntrojangrpc&serviceName=lizntrojangrpc#chicago.emm.ink_Trojan_gRPC
+    
 ===================== VLESS TCP TLS/XTLS-direct/XTLS-splice ======================
 
 
