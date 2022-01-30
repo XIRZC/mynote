@@ -1,0 +1,96 @@
+{{{
+===================== VLESS TCP TLS/XTLS-direct/XTLS-splice ======================
+
+
+ ---> 帐号：paris.emm.ink_VLESS_XTLS/TLS-direct_TCP_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> 通用格式(VLESS+TCP+TLS/xtls-rprx-direct)
+    vless://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?encryption=none&security=xtls&type=tcp&host=paris.emm.ink&headerType=none&sni=paris.emm.ink&flow=xtls-rprx-direct#paris.emm.ink_VLESS_XTLS/TLS-direct_TCP
+
+ ---> 格式化明文(VLESS+TCP+TLS/xtls-rprx-direct)
+协议类型：VLESS，地址：paris.emm.ink，端口：443，用户ID：63c76940-08ee-4fc2-96bf-2f19eec4b92a，安全：xtls，传输方式：tcp，flow：xtls-rprx-direct，账户名:paris.emm.ink_VLESS_XTLS/TLS-direct_TCP
+
+ ---> 二维码 VLESS(VLESS+TCP+TLS/xtls-rprx-direct)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2F63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3A443%3Fencryption%3Dnone%26security%3Dxtls%26type%3Dtcp%26paris.emm.ink%3Dparis.emm.ink%26headerType%3Dnone%26sni%3Dparis.emm.ink%26flow%3Dxtls-rprx-direct%23paris.emm.ink_VLESS_XTLS/TLS-direct_TCP
+
+----------------------------------------------------------------------------------
+ ---> 通用格式(VLESS+TCP+TLS/xtls-rprx-splice)
+    vless://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?encryption=none&security=xtls&type=tcp&host=paris.emm.ink&headerType=none&sni=paris.emm.ink&flow=xtls-rprx-splice#paris.emm.ink_VLESS_XTLS/TLS-splice_TCP
+
+ ---> 格式化明文(VLESS+TCP+TLS/xtls-rprx-splice)
+    协议类型：VLESS，地址：paris.emm.ink，端口：443，用户ID：63c76940-08ee-4fc2-96bf-2f19eec4b92a，安全：xtls，传输方式：tcp，flow：xtls-rprx-splice，账户名:paris.emm.ink_VLESS_XTLS/TLS-splice_TCP
+
+ ---> 二维码 VLESS(VLESS+TCP+TLS/xtls-rprx-splice)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2F63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3A443%3Fencryption%3Dnone%26security%3Dxtls%26type%3Dtcp%26paris.emm.ink%3Dparis.emm.ink%26headerType%3Dnone%26sni%3Dparis.emm.ink%26flow%3Dxtls-rprx-splice%23paris.emm.ink_VLESS_XTLS/TLS-splice_TCP
+
+
+================================ VLESS WS TLS CDN ================================
+
+
+ ---> 帐号：paris.emm.ink_VLESS_WS_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> 通用格式(VLESS+WS+TLS)
+    vless://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?encryption=none&security=tls&type=ws&host=paris.emm.ink&sni=paris.emm.ink&path=%2fexcpws#paris.emm.ink_VLESS_WS
+
+ ---> 格式化明文(VLESS+WS+TLS)
+    协议类型：VLESS，地址：paris.emm.ink，伪装域名/SNI：paris.emm.ink，端口：443，用户ID：63c76940-08ee-4fc2-96bf-2f19eec4b92a，安全：tls，传输方式：ws，路径:/excpws，账户名:paris.emm.ink_VLESS_WS
+
+ ---> 二维码 VLESS(VLESS+WS+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2F63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3A443%3Fencryption%3Dnone%26security%3Dtls%26type%3Dws%26host%3Dparis.emm.ink%26sni%3Dparis.emm.ink%26path%3D%252fexcpws%23paris.emm.ink_VLESS_WS
+
+================================ VMess WS TLS CDN ================================
+
+
+ ---> 帐号：paris.emm.ink_vmess_ws_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> 通用json(VMess+WS+TLS)
+    {"port":443,"ps":"paris.emm.ink_vmess_ws","tls":"tls","id":"63c76940-08ee-4fc2-96bf-2f19eec4b92a","aid":0,"v":2,"host":"paris.emm.ink","type":"none","path":"excpvws","net":"ws","add":"paris.emm.ink","allowInsecure":0,"method":"none","peer":"paris.emm.ink","sni":"paris.emm.ink"}
+
+ ---> 通用vmess(VMess+WS+TLS)链接
+    vmess://eyJwb3J0Ijo0NDMsInBzIjoicGFyaXMuZW1tLmlua192bWVzc193cyIsInRscyI6InRscyIsImlkIjoiNjNjNzY5NDAtMDhlZS00ZmMyLTk2YmYtMmYxOWVlYzRiOTJhIiwiYWlkIjowLCJ2IjoyLCJob3N0IjoicGFyaXMuZW1tLmluayIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9leGNwdndzIiwibmV0Ijoid3MiLCJhZGQiOiJwYXJpcy5lbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJwYXJpcy5lbW0uaW5rIiwic25pIjoicGFyaXMuZW1tLmluayJ9
+
+ ---> 二维码 vmess(VMess+WS+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vmess://eyJwb3J0Ijo0NDMsInBzIjoicGFyaXMuZW1tLmlua192bWVzc193cyIsInRscyI6InRscyIsImlkIjoiNjNjNzY5NDAtMDhlZS00ZmMyLTk2YmYtMmYxOWVlYzRiOTJhIiwiYWlkIjowLCJ2IjoyLCJob3N0IjoicGFyaXMuZW1tLmluayIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9leGNwdndzIiwibmV0Ijoid3MiLCJhZGQiOiJwYXJpcy5lbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJwYXJpcy5lbW0uaW5rIiwic25pIjoicGFyaXMuZW1tLmluayJ9
+
+
+=============================== VLESS gRPC TLS CDN ===============================
+
+
+ --->gRPC处于测试阶段，可能对你使用的客户端不兼容，如不能使用请忽略
+
+ ---> 帐号：paris.emm.ink_VLESS_gRPC_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> 通用格式(VLESS+gRPC+TLS)
+    vless://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?encryption=none&security=tls&type=grpc&host=paris.emm.ink&path=excpgrpc&serviceName=excpgrpc&alpn=h2&sni=paris.emm.ink#paris.emm.ink_VLESS_gRPC
+
+ ---> 格式化明文(VLESS+gRPC+TLS)
+    协议类型：VLESS，地址：paris.emm.ink，伪装域名/SNI：paris.emm.ink，端口：443，用户ID：63c76940-08ee-4fc2-96bf-2f19eec4b92a，安全：tls，传输方式：gRPC，alpn：h2，serviceName:excpgrpc，账户名:paris.emm.ink_VLESS_gRPC
+
+ ---> 二维码 VLESS(VLESS+gRPC+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2F63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3A443%3Fencryption%3Dnone%26security%3Dtls%26type%3Dgrpc%26host%3Dparis.emm.ink%26serviceName%3Dexcpgrpc%26path%3Dexcpgrpc%26sni%3Dparis.emm.ink%26alpn%3Dh2%23paris.emm.ink_VLESS_gRPC
+
+==================================  Trojan TLS  ==================================
+
+
+ ---> 帐号：paris.emm.ink_trojan_tcp_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> Trojan(TLS)
+    trojan://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?peer=paris.emm.ink&sni=paris.emm.ink&alpn=http1.1#paris.emm.ink_Trojan
+
+ ---> 二维码 Trojan(TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=trojan%3a%2f%2f63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3a443%3fpeer%3dparis.emm.ink%26sni%3dparis.emm.ink%26alpn%3Dhttp1.1%23paris.emm.ink_Trojan
+
+
+================================  Trojan gRPC TLS  ================================
+
+
+ --->gRPC处于测试阶段，可能对你使用的客户端不兼容，如不能使用请忽略
+
+ ---> 帐号：paris.emm.ink_trojan_gRPC_63c76940-08ee-4fc2-96bf-2f19eec4b92a
+
+ ---> Trojan gRPC(TLS)
+    trojan://63c76940-08ee-4fc2-96bf-2f19eec4b92a@paris.emm.ink:443?encryption=none&peer=paris.emm.ink&security=tls&type=grpc&sni=paris.emm.ink&alpn=h2&path=excptrojangrpc&serviceName=excptrojangrpc#paris.emm.ink_Trojan_gRPC
+
+ ---> 二维码 Trojan gRPC(TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=trojan%3a%2f%2f63c76940-08ee-4fc2-96bf-2f19eec4b92a%40paris.emm.ink%3a443%3Fencryption%3Dnone%26security%3Dtls%26peer%3dparis.emm.ink%26type%3Dgrpc%26sni%3dparis.emm.ink%26path%3Dexcptrojangrpc%26alpn%3D=h2%26serviceName%3Dexcptrojangrpc%23paris.emm.ink_Trojan_gRPC
+  }}}

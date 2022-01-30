@@ -16,9 +16,12 @@ Now I subscribe [[https://w1.v2free.net|V2Free]] yearly 112 combo, and using vul
     - [[https://my.vultr.com/subs/?id=4e95ebc3-0bb4-4608-9dc5-f4d9cf0c4819|Chicago]]:
       - `ssh root@66.42.127.55`
       - `J=v7?[aLhwVZ]XyJ`
+      - [[nodes/chicago]]
     - [[https://my.vultr.com/subs/?id=613666a7-6faa-4cc8-b2d1-fc6ec2b8b5d8|Paris]]: 
       - `ssh root@107.191.46.89` 
       - `K(u1+oLmM5kVKSA6`
+      - [[nodes/paris]]
     - [[https://my.vultr.com/subs/?id=52163ab0-ccb9-4dfa-a172-1e472914226a|Madrid]]: 
       - `ssh root@208.85.16.201` 
       - `2}oGy{?TV(n.ee@D`
+      - [[nodes/madrid]]
