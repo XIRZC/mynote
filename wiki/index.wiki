@@ -31,9 +31,9 @@ There are some high-frequency or canical words with general meanings and useful 
    
 - Specific Cheatsheets
   - [[https://gto76.github.io/python-cheatsheet/|Python cheatsheets]]
-  - [[http://www.utc.fr/~jlaforet/Suppl/latex-cheatsheet.pdf|Latex Cheatsheets_complete]][[https://latex4ei.de/downloads/LaTeX_CheatSheet.pdf|Latex Cheatsheets clear]]
-  - [[https://github.com/tchapi/markdown-cheatsheet|Markdown Cheatsheets]]
-  - [[http://bilalarslan.me/git-cheat-sheet/|Git Cheatsheets]]
+  - [[http://www.utc.fr/~jlaforet/Suppl/latex-cheatsheet.pdf|Latex cheatsheets complete]]  [[https://latex4ei.de/downloads/LaTeX_CheatSheet.pdf|Latex cheatsheets clear]]
+  - [[https://github.com/tchapi/markdown-cheatsheet|Markdown cheatsheets]]
+  - [[http://bilalarslan.me/git-cheat-sheet/|Git cheatsheets]]
   - [[https://stanford.edu/~shervine/teaching/cs-229/|Stanford-cs-221(AI)&229(ML)&230(DL) cheatsheets]]
 
 
