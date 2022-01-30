@@ -7,11 +7,11 @@ Now I subscribe [[https://w1.v2free.net|V2Free]] yearly 112 combo, and using vul
    
 - VPN building
   - [[https://github.com/ToyoDAdoubi/doubi|SSR]]:
-    `wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
+    - `wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
   - [[https://github.com/233boy/v2ray|V2ray]]:
-    `bash <(curl -s -L https://git.io/v2ray.sh)`
+    - `bash <(curl -s -L https://git.io/v2ray.sh)`
   - [[https://github.com/mack-a/v2ray-agent|Xray-core]]:
-     `wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh`
+     - `wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh`
   - IP and pwd of deployed servers
     - [[https://my.vultr.com/subs/?id=4e95ebc3-0bb4-4608-9dc5-f4d9cf0c4819|Chicago]]:
       - `ssh root@66.42.127.55`
