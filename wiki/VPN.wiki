@@ -1,0 +1,9 @@
+= VPN Purchasing and VPN Build Scripts =
+ 
+Now I subscribe [[https://w1.v2free.net|V2Free]] yearly 112 combo, and using vultr to build different city nodes by SSR, v2ray, and an aggragated scripts.
+
+- VPN purchasing
+  - [[https://w1.v2free.net|V2Free]]
+   
+- VPN building
+  - `bash <(curl -s -L https://git.io/v2ray.sh)`

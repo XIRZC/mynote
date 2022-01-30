@@ -53,4 +53,5 @@ There are some other useful items or urls:
   - [[CCF rank for AI conferences and journals]]
   - [[https://emm.ink/wiki/|Vimwiki Wiki]]
   - [[https://spacevim.org/|SpaceVim]]
+  - [[VPN]]
 
