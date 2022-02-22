@@ -16,6 +16,150 @@ DWM for window manager, rofi for app launcher, alacritty, kitty and st for termi
 <blockquote>
 KDE for desktop environment, sddm for login or display environment, and there are some theme configurations to beauty it.
 </blockquote>
+    
+<div id="My Favorite OS is ArchLinux | [[/index|home]]-Important commands"><h2 id="Important commands" class="header"><a href="#My Favorite OS is ArchLinux | [[/index|home]]-Important commands">Important commands</a></h2></div>
+
+<p>
+Here are some pre-utils to use:
+</p>
+
+<ul>
+<li>
+<code>ip link</code> for look up wlan interface configuration and status
+
+<li>
+<code>wpa_passphrase \(SSID \)PWD &gt; X.conf</code> for generate corresponding network connection configuration
+
+<li>
+<code>wpa_supplicant -c X.conf -i wlan0 -B</code> for connect corresponding wifi in the background
+
+<li>
+<code>dhcpcd &amp;</code> for configure wifi ip address if the network doesn't work
+
+<li>
+<code>fdisk -l</code> for list disk partition
+
+<li>
+<code>mkfs.ext4</code> for make format for linux partition
+
+<li>
+<code>mkswap</code> for make format for swap
+
+<li>
+<code>mkfs.fat</code> for make format for EFI partition
+
+</ul>
+ 
+<p>
+Here are six important successive commands: 
+</p>
+ 
+<ul>
+<li>
+<code>pacstrap /mnt base linux linux-firmware</code> for install linux into mounted linux main partition
+
+<li>
+<code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code> for system config
+
+<li>
+<code>arch-chroot /mnt</code> for change root into new system
+
+<li>
+<code>pacman -S grub efibootmgr intel-ucode os-prober</code> for important system essentials
+
+<li>
+<code>grub-mkconfig &gt; /boot/grub/grub.cfg</code> for grub configuration generation
+
+<li>
+<code>grub-install --target=x86_64-efi --efi-directory=/boot</code> for grub installtion
+
+</ul>
+ 
+<div id="My Favorite OS is ArchLinux | [[/index|home]]-Efficient packages or apps"><h2 id="Efficient packages or apps" class="header"><a href="#My Favorite OS is ArchLinux | [[/index|home]]-Efficient packages or apps">Efficient packages or apps</a></h2></div>
+
+<ul>
+<li>
+<code>flameshot</code> for screenshot
+
+<li>
+<code>ranger</code> for file-related manipulation
+
+<li>
+<code>zsh</code> for well-performed command-line use
+
+<li>
+<code>lazygit</code> for convenient git operation
+
+<li>
+<code>neovim</code> for better vim
+
+<li>
+<code>gvim</code> for some great experience compared with conventional vim(here especially for archlinux copyboard sharing between vim and system)
+
+<li>
+<code>spacevim</code> for easy-use vim
+
+<li>
+<code>dwm</code> for the best window manager
+
+<li>
+<code>alacritty</code> for well-looking terminal client
+
+<li>
+<code>kitty</code> for previewing pictures and visual parts
+
+<li>
+<code>rofi</code> for weel-looking app launcher
+
+<li>
+<code>neofetch</code> for printing current system configuration with great appearance
+
+<li>
+<code>yay</code> for aur package installer
+
+<li>
+<code>qv2ray &amp; v2ray</code> for good vpn client
+
+<li>
+<code>nerd-font-complete(aur)</code> for whole nerd-font support
+
+<li>
+<code>fcitx &amp; google-pinyin</code> for chinese input
+
+<li>
+<code>sddm &amp; kde</code> for kde desktop environment
+
+<li>
+<code>blueman</code> for bluetooth connection
+
+<li>
+<code>pulseaudio</code> for audio manipulation
+
+<li>
+<code>spotify</code> for some free music
+
+<li>
+<code>networkmanager &amp; network-manager-applet</code> for visual wifi connection
+
+<li>
+<code>conda</code> for virtual python environment
+
+<li>
+<code>feh</code> for automative wallpaper change
+
+<li>
+<code>zotero</code> for paper managment
+
+<li>
+<code>screenkey</code> for keyboard monitor
+
+<li>
+<code>picom</code> for great apperance
+
+<li>
+<code>mpv</code> for great video player
+
+</ul>
 
 </body>
 </html>
